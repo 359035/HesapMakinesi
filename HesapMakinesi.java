@@ -20,30 +20,30 @@ public class HesapMakinesi {
         int a,b,secim;
         Scanner inp=new Scanner(System.in);
         
-        System.out.print("›lk Say˝y˝ Giriniz:");
+        System.out.print("√ùlk Say√Ωy√Ω Giriniz:");
         a=inp.nextInt();
         
-        System.out.print("›kinci Say˝y˝ Giriniz:");
+        System.out.print("√ùkinci Say√Ωy√Ω Giriniz:");
         b=inp.nextInt();
         
-        System.out.println("1.Toplama\n2.«˝karma\n3.«arpma\n4.Bˆlme");
-        System.out.print("L¸tfen SeÁiminizi Giriniz:");
+        System.out.println("1.Toplama\n2.√á√Ωkarma\n3.√áarpma\n4.B√∂lme");
+        System.out.print("L√ºtfen Se√ßiminizi Giriniz:");
         secim=inp.nextInt();
         
         switch(secim){
             case 1 -> System.out.println("Toplam:"+(a+b));
-            case 2 -> System.out.println("«˝karma:"+(a-b));
-            case 3 -> System.out.println("«arpma:"+(a*b));
+            case 2 -> System.out.println("√á√Ωkarma:"+(a-b));
+            case 3 -> System.out.println("√áarpma:"+(a*b));
             case 4 -> {
-                if(b=0){
-                    System.out.println("Bir say˝ s˝f˝ra bˆl¸nemez!");
+                if(b==0){
+                    System.out.println("Bir say√Ω s√Ωf√Ωra b√∂l√ºnemez!");
                     
                 }
                 else{
-                    System.out.println("Bˆlme:"+(a/b));
+                    System.out.println("B√∂lme:"+(a/b));
                 }
             }
-            default -> System.out.println("Hatal˝ SeÁim");
+            default -> System.out.println("Hatal√Ω Se√ßim");
                 
                 
                 
